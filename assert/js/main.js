@@ -1,5 +1,11 @@
 const input = document.querySelector('#file-upload');
 const list = document.querySelector('.list-file');
+const importFile = document.getElementById('upload'),
+file = document.getElementById('file')
+
+importFile.addEventListener('click', () => {
+  file.click();
+})
 
 input.addEventListener('change', () => {
   const file = input.files[0];
