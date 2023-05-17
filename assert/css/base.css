@@ -1,0 +1,42 @@
+:root{
+    --white-color: #FFFFFF;
+    --black-color: #ECECEC;
+    --grey-color: #c2c2c2;
+    --text-color: #454545;
+    --boder-color: #454545;
+    --orange-color: #FEA55F;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+    line-height : 1.6rem ;
+    font-family: 'Fira Code', sans-serif; 
+    box-sizing: border-box;
+    background-color: var(--black-color);
+}
+
+.grid{
+    width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
